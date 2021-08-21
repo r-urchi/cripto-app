@@ -10,7 +10,7 @@
   min-height: 100vh;
   font-family: sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   padding: 2rem;
@@ -34,6 +34,7 @@
   border-collapse: collapse;
   margin: 1.5rem 0;
   font-size: 0.9em;
+  width: 60%;
   max-width: 80%;
 }
 .styled-table thead tr {

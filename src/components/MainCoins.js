@@ -4,7 +4,7 @@ import { ProviderContext } from '../context/Context';
 
 const MainCoins = () => {
 
-    const { coins, search, setSearch } = useContext(ProviderContext);
+    const { setSearch } = useContext(ProviderContext);
     
     return(
         <>
@@ -14,7 +14,7 @@ const MainCoins = () => {
             placeholder="Buscar moneda"
             onChange={e => setSearch(e.target.value)}
             />
-            <TableCoins coins={coins} search={search}/>
+            <TableCoins/>
         </>
     )
 }
