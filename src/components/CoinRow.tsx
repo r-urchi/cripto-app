@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CoinRow = ({coin, i}) => {
+const CoinRow = ({coin, i}): JSX.Element => {
 
     return(
             <tr key={coin.id}>

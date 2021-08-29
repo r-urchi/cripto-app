@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import TableCoins from './TableCoins';
 import { ProviderContext } from '../context/Context';
 
-const MainCoins = () => {
+const MainCoins = (): JSX.Element => {
 
     const { setSearch } = useContext(ProviderContext);
     
